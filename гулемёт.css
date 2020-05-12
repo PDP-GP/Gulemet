@@ -1,0 +1,55 @@
+.stars {
+    width: 100%;
+    text-align: center;
+}
+
+.pole {
+    margin: 0 20% 0 20%;
+    padding-top: 20px;
+    background: url(fon2.jpg) repeat;
+    background-size: 100%;
+}
+
+.alltext {
+    margin: 0 7% 0 7%;
+}
+
+body {
+    background:  url(lenta.png) repeat;
+    background-size: 15%;
+    margin: 0px;
+
+}
+
+
+.head-link {
+    font-size: 1.5vw;
+    margin: 0.5em;
+    background: url(patron.png) no-repeat; 
+    background-size: 100% 100%;
+    color: khaki;
+    padding: 0.5vw;
+}
+a.head-link:link{
+    color: white;
+    text-decoration: none;
+
+}
+
+.logo{
+    max-width: 4%;
+}
+
+
+.text-history {
+    margin: 0 7% 0 7%;
+    text-align: justify;
+}
+
+.text-index {
+    text-align: justify;
+}
+
+#pic-text {
+    text-align: center;
+}
