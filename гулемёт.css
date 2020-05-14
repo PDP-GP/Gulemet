@@ -6,8 +6,10 @@
 .pole {
     margin: 0 20% 0 20%;
     padding-top: 20px;
+    padding-bottom: 20px;
     background: url(fon2.jpg) repeat;
     background-size: 100%;
+    overflow: auto;
 }
 
 .alltext {
@@ -36,13 +38,16 @@ a.head-link:link{
 
 }
 
+.links2{
+    text-decoration: none;
+}
+
 .logo{
     max-width: 4%;
 }
 
 
-.text-history {
-    margin: 0 7% 0 7%;
+.text-justify {
     text-align: justify;
 }
 
@@ -50,6 +55,72 @@ a.head-link:link{
     text-align: justify;
 }
 
-#pic-text {
+.pic-text {
     text-align: center;
+}
+
+.pic-text::first-letter{
+    font-size: 100%;
+    padding-left: 0;
+}
+
+.links-text:first-letter{
+    font-size: 100%;
+    padding-left: 0;
+}
+
+
+.big-picture {
+    width: 70%;
+    margin: 1%;
+    border-radius: 20px;
+}
+
+.small-picture {
+    width: 47%;
+    margin: 1%;
+    border-radius: 20px;
+}
+
+.super-small-picture {
+    width: 30%;
+    margin: 1%;
+    border-radius: 20px;
+}
+
+.super-puper-small-picture {
+    width:15%;
+    margin: 1%;
+    border-radius: 20px;
+}
+
+.super-puper-duper-small-picture {
+    width:10%;
+    margin: 1%;
+    border-radius: 20px;
+}
+
+.small-picture-left-floated
+{
+    float: left;
+}
+
+.small-picture-right-floated
+{
+    float: right;
+}
+
+p:first-letter{
+    font-size: 210%;
+    padding-left: 1em;
+}
+
+.without-big-letter :first-letter{
+    font-size: 100%;
+    padding-left: 0;
+}
+
+ h2{
+  margin-bottom: 0; 
+  clear: both;
 }
